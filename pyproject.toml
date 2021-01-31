@@ -26,6 +26,7 @@ llvmlite = "<=0.34"
 notebook = "^6.2.0"
 jupyter = "^1.0.0"
 jupyter-server-proxy = "^1.5.3"
+geoviews = "^1.8.1"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
