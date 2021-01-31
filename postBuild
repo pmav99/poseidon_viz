@@ -6,3 +6,5 @@ jupyter serverextension enable --sys-prefix jupyter_server_proxy
 mv panel_server_extension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable bokeh extension
 jupyter serverextension enable --sys-prefix panel_server_extension
+# install cartopy
+pip install cartopy==0.18.0
